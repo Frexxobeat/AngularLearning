@@ -1,0 +1,86 @@
+styles.css
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+/* Container */
+.container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 40px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* Header */
+.header {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.logo {
+    font-size: 12px;
+    color: #333;
+}
+
+.project-info, .measurement-details {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.project-item, .measurement-item {
+    font-size: 14px;
+    color: #555;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.project-item.multi-report {
+    font-weight: 600;
+}
+
+.date-range {
+    display: flex;
+    gap: 20px;
+}
+
+.label {
+    font-weight: 500;
+    color: #333;
+}
+
+.value {
+    font-weight: 400;
+    color: #666;
+}
+
+/* Measurement */
+.measurement {
+    border-top: 1px solid #ddd;
+    padding-top: 20px;
+}
+
+.measurement h2 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.content {
+    font-size: 14px;
+    color: #444;
+    line-height: 1.6;
+    font-weight: 600;
+}

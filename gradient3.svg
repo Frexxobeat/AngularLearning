@@ -1,0 +1,135 @@
+<svg width="1920" height="1080" viewBox="0 0 1920 1080" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#ffffff">
+                <animate attributeName="stop-color" values="#ffffff;#ffffff;#ffffff" dur="7s" repeatCount="indefinite"
+                    calcMode="spline" keySplines="0.45 0 0.55 1; 0.45 0 0.55 1" />
+            </stop>
+            <stop offset="100%" stop-color="#ffffff">
+                <animate attributeName="stop-color" values="#ffffff;#ffffff;#ffffff" dur="7s" repeatCount="indefinite"
+                    calcMode="spline" keySplines="0.45 0 0.55 1; 0.45 0 0.55 1" />
+            </stop>
+        </linearGradient>
+        <linearGradient id="grad2" x1="100%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%" stop-color="#ffffff">
+                <animate attributeName="stop-color" values="#ffffff;#5bb1e6;#ffffff" dur="7s" repeatCount="indefinite"
+                    calcMode="spline" keySplines="0.45 0 0.55 1; 0.45 0 0.55 1" />
+            </stop>
+            <stop offset="100%" stop-color="#5bb1e6">
+                <animate attributeName="stop-color" values="#5bb1e6;#ffffff;#5bb1e6" dur="7s" repeatCount="indefinite"
+                    calcMode="spline" keySplines="0.45 0 0.55 1; 0.45 0 0.55 1" />
+            </stop>
+        </linearGradient>
+        <filter id="blurFilter">
+            <feGaussianBlur in="SourceGraphic" stdDeviation="100" />
+        </filter>
+    </defs>
+    <g filter="url(#blurFilter)">
+
+        <circle cx="119.31424218423388" cy="682.8823644526391" r="255" fill="url(#grad1)">
+            <animate attributeName="cx" values="119.31424218423388;208.44955208945674;119.31424218423388" dur="7s"
+                repeatCount="indefinite" calcMode="spline" keySplines="0.45 0 0.55 1; 0.45 0 0.55 1" />
+            <animate attributeName="cy" values="682.8823644526391;813.188240755849;682.8823644526391" dur="7s"
+                repeatCount="indefinite" calcMode="spline" keySplines="0.45 0 0.55 1; 0.45 0 0.55 1" />
+        </circle>
+
+        <circle cx="1609.0666793741789" cy="376.6989712534067" r="255" fill="url(#grad2)">
+            <animate attributeName="cx" values="1609.0666793741789;1737.714124526435;1609.0666793741789" dur="7s"
+                repeatCount="indefinite" calcMode="spline" keySplines="0.45 0 0.55 1; 0.45 0 0.55 1" />
+            <animate attributeName="cy" values="376.6989712534067;334.2791262217312;376.6989712534067" dur="7s"
+                repeatCount="indefinite" calcMode="spline" keySplines="0.45 0 0.55 1; 0.45 0 0.55 1" />
+        </circle>
+
+        <circle cx="926.8044919662166" cy="519.3251085903136" r="255" fill="url(#grad1)">
+            <animate attributeName="cx" values="926.8044919662166;877.4818810995822;926.8044919662166" dur="7s"
+                repeatCount="indefinite" calcMode="spline" keySplines="0.45 0 0.55 1; 0.45 0 0.55 1" />
+            <animate attributeName="cy" values="519.3251085903136;546.6009927057084;519.3251085903136" dur="7s"
+                repeatCount="indefinite" calcMode="spline" keySplines="0.45 0 0.55 1; 0.45 0 0.55 1" />
+        </circle>
+
+        <circle cx="139.4345686335133" cy="717.5459516176259" r="255" fill="url(#grad2)">
+            <animate attributeName="cx" values="139.4345686335133;3.773808376884517;139.4345686335133" dur="7s"
+                repeatCount="indefinite" calcMode="spline" keySplines="0.45 0 0.55 1; 0.45 0 0.55 1" />
+            <animate attributeName="cy" values="717.5459516176259;651.4345278295918;717.5459516176259" dur="7s"
+                repeatCount="indefinite" calcMode="spline" keySplines="0.45 0 0.55 1; 0.45 0 0.55 1" />
+        </circle>
+
+        <circle cx="1362.0620136786765" cy="244.24252541561958" r="255" fill="url(#grad1)">
+            <animate attributeName="cx" values="1362.0620136786765;1122.436642730201;1362.0620136786765" dur="7s"
+                repeatCount="indefinite" calcMode="spline" keySplines="0.45 0 0.55 1; 0.45 0 0.55 1" />
+            <animate attributeName="cy" values="244.24252541561958;106.84362310623825;244.24252541561958" dur="7s"
+                repeatCount="indefinite" calcMode="spline" keySplines="0.45 0 0.55 1; 0.45 0 0.55 1" />
+        </circle>
+
+        <circle cx="1737.3927798806499" cy="302.5728365184018" r="255" fill="url(#grad2)">
+            <animate attributeName="cx" values="1737.3927798806499;1506.5997388018322;1737.3927798806499" dur="7s"
+                repeatCount="indefinite" calcMode="spline" keySplines="0.45 0 0.55 1; 0.45 0 0.55 1" />
+            <animate attributeName="cy" values="302.5728365184018;258.0178775415796;302.5728365184018" dur="7s"
+                repeatCount="indefinite" calcMode="spline" keySplines="0.45 0 0.55 1; 0.45 0 0.55 1" />
+        </circle>
+
+        <circle cx="568.6276374413454" cy="903.230635437908" r="255" fill="url(#grad1)">
+            <animate attributeName="cx" values="568.6276374413454;842.0078141808996;568.6276374413454" dur="7s"
+                repeatCount="indefinite" calcMode="spline" keySplines="0.45 0 0.55 1; 0.45 0 0.55 1" />
+            <animate attributeName="cy" values="903.230635437908;1021.4837228991205;903.230635437908" dur="7s"
+                repeatCount="indefinite" calcMode="spline" keySplines="0.45 0 0.55 1; 0.45 0 0.55 1" />
+        </circle>
+
+        <circle cx="1186.7149497563528" cy="371.9926209321452" r="255" fill="url(#grad2)">
+            <animate attributeName="cx" values="1186.7149497563528;1273.0585195873466;1186.7149497563528" dur="7s"
+                repeatCount="indefinite" calcMode="spline" keySplines="0.45 0 0.55 1; 0.45 0 0.55 1" />
+            <animate attributeName="cy" values="371.9926209321452;428.0093240631793;371.9926209321452" dur="7s"
+                repeatCount="indefinite" calcMode="spline" keySplines="0.45 0 0.55 1; 0.45 0 0.55 1" />
+        </circle>
+
+        <circle cx="30.0485355666207" cy="505.10028182147335" r="255" fill="url(#grad1)">
+            <animate attributeName="cx" values="30.0485355666207;161.87477666028633;30.0485355666207" dur="7s"
+                repeatCount="indefinite" calcMode="spline" keySplines="0.45 0 0.55 1; 0.45 0 0.55 1" />
+            <animate attributeName="cy" values="505.10028182147335;383.29437444817785;505.10028182147335" dur="7s"
+                repeatCount="indefinite" calcMode="spline" keySplines="0.45 0 0.55 1; 0.45 0 0.55 1" />
+        </circle>
+
+        <circle cx="1022.3694261446583" cy="659.030093871234" r="255" fill="url(#grad2)">
+            <animate attributeName="cx" values="1022.3694261446583;1175.7853831955238;1022.3694261446583" dur="7s"
+                repeatCount="indefinite" calcMode="spline" keySplines="0.45 0 0.55 1; 0.45 0 0.55 1" />
+            <animate attributeName="cy" values="659.030093871234;608.5696699583584;659.030093871234" dur="7s"
+                repeatCount="indefinite" calcMode="spline" keySplines="0.45 0 0.55 1; 0.45 0 0.55 1" />
+        </circle>
+
+        <circle cx="1728.218874682915" cy="758.7463399529873" r="255" fill="url(#grad1)">
+            <animate attributeName="cx" values="1728.218874682915;1736.612830108312;1728.218874682915" dur="7s"
+                repeatCount="indefinite" calcMode="spline" keySplines="0.45 0 0.55 1; 0.45 0 0.55 1" />
+            <animate attributeName="cy" values="758.7463399529873;815.122062670546;758.7463399529873" dur="7s"
+                repeatCount="indefinite" calcMode="spline" keySplines="0.45 0 0.55 1; 0.45 0 0.55 1" />
+        </circle>
+
+        <circle cx="1241.7955493649176" cy="869.4593953561505" r="255" fill="url(#grad2)">
+            <animate attributeName="cx" values="1241.7955493649176;1341.0431386042135;1241.7955493649176" dur="7s"
+                repeatCount="indefinite" calcMode="spline" keySplines="0.45 0 0.55 1; 0.45 0 0.55 1" />
+            <animate attributeName="cy" values="869.4593953561505;942.8060047575366;869.4593953561505" dur="7s"
+                repeatCount="indefinite" calcMode="spline" keySplines="0.45 0 0.55 1; 0.45 0 0.55 1" />
+        </circle>
+
+        <circle cx="1047.4291118511862" cy="200.16803777590223" r="255" fill="url(#grad1)">
+            <animate attributeName="cx" values="1047.4291118511862;1208.8139727952612;1047.4291118511862" dur="7s"
+                repeatCount="indefinite" calcMode="spline" keySplines="0.45 0 0.55 1; 0.45 0 0.55 1" />
+            <animate attributeName="cy" values="200.16803777590223;265.1191633896185;200.16803777590223" dur="7s"
+                repeatCount="indefinite" calcMode="spline" keySplines="0.45 0 0.55 1; 0.45 0 0.55 1" />
+        </circle>
+
+        <circle cx="1774.1623524411139" cy="685.840285853458" r="255" fill="url(#grad2)">
+            <animate attributeName="cx" values="1774.1623524411139;1841.6920713469588;1774.1623524411139" dur="7s"
+                repeatCount="indefinite" calcMode="spline" keySplines="0.45 0 0.55 1; 0.45 0 0.55 1" />
+            <animate attributeName="cy" values="685.840285853458;606.7127485254942;685.840285853458" dur="7s"
+                repeatCount="indefinite" calcMode="spline" keySplines="0.45 0 0.55 1; 0.45 0 0.55 1" />
+        </circle>
+
+        <circle cx="1738.1705981967184" cy="330.0365806659596" r="255" fill="url(#grad1)">
+            <animate attributeName="cx" values="1738.1705981967184;1586.3612129393425;1738.1705981967184" dur="7s"
+                repeatCount="indefinite" calcMode="spline" keySplines="0.45 0 0.55 1; 0.45 0 0.55 1" />
+            <animate attributeName="cy" values="330.0365806659596;379.0566774862306;330.0365806659596" dur="7s"
+                repeatCount="indefinite" calcMode="spline" keySplines="0.45 0 0.55 1; 0.45 0 0.55 1" />
+        </circle>
+
+    </g>
+</svg>

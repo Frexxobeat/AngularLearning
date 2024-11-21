@@ -1,0 +1,39 @@
+<svg width="1920" height="1080" viewBox="0 0 1920 1080" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <filter id="blurFilter">
+            <feGaussianBlur in="SourceGraphic" stdDeviation="76" />
+        </filter>
+        <filter id="noiseFilter">
+            <feTurbulence type="fractalNoise" baseFrequency="0.01" numOctaves="3" result="noise" />
+            <feComposite in="SourceGraphic" in2="noise" operator="arithmetic" k1="0" k2="0" k3="0" k4="0" />
+        </filter>
+    </defs>
+    <g filter="url(#blurFilter)">
+        
+        <circle id="circle0" cx="274.69512257908843" cy="1035.4160279057876" r="250" fill="#f9f9fb" opacity="0">
+        </circle>
+        
+        <circle id="circle1" cx="667.0911086522156" cy="581.9527026350659" r="250" fill="#1d76c8" opacity="0">
+        </circle>
+        
+        <circle id="circle2" cx="1526.2163624306565" cy="10.42059774960741" r="250" fill="#ffffff" opacity="0">
+        </circle>
+        
+        <circle id="circle3" cx="427.9783095834455" cy="914.0695295201577" r="250" fill="#f9f9fb" opacity="0">
+        </circle>
+        
+        <circle id="circle4" cx="411.9314576192667" cy="167.0717967863559" r="250" fill="#f9f9fb" opacity="0">
+        </circle>
+        
+        <circle id="circle5" cx="1107.8546738337511" cy="390.0568588892957" r="250" fill="#ffffff" opacity="0">
+        </circle>
+        
+        <circle id="circle6" cx="1473.976917468495" cy="396.9697098019088" r="250" fill="#ffffff" opacity="0">
+        </circle>
+        
+        <circle id="circle7" cx="1659.9416953414736" cy="1034.9311285692154" r="250" fill="#f9f9fb" opacity="0">
+        </circle>
+        
+    </g>
+    <rect width="100%" height="100%" filter="url(#noiseFilter)" />
+</svg>
