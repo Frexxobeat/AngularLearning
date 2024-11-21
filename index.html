@@ -1,27 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Angular Learning</title>
-    <main>
-        <form (ngSubmit)="onSubmit()" #form="ngForm">
-            <input type="color" name="Color of background" id="BG">
-        </form>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300;400;500;600;700;800;900&family=Red+Hat+Text:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
-        <button type="submit" [disabled]="!form.form.valid">
-            Do the thing!
-        </button>
-    </main>
+    <meta charset="UTF-8">
+    <meta name="description" content="Learning Angular is fun!">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="styles.css">
+
+    <title>Angular Learning</title>
 </head>
 <body>
-    
+    <header>
+        <nav>
+            <a href="http://frederikrex.dk">Home</a>
+            <a href="about.html">About</a>
+            <a href="projects.html">Projects</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h1>Angular Learning</h1>
+        </section>
+        <section class="images">
+            <figure>
+                <a href="http://frederikrex.dk">
+                    <img width="200" height="300" src="https://picsum.photos/200/300" alt="A random image taken straight from the internet">
+                </a>
+            </figure>
+            <figure>
+                <a href="http://frederikrex.dk">
+                    <img width="200" height="300" src="https://picsum.photos/200/300" alt="A random image taken straight from the internet">
+                </a>
+            </figure>
+            <figure>
+                <a href="http://frederikrex.dk">
+                    <img width="200" height="300" src="https://picsum.photos/200/300" alt="A random image taken straight from the internet">
+                </a>
+            </figure>
+        </section>
+
+
+        <section class="flex-container">
+            <article>
+                <h3>Learning Angular</h3>
+                <p>This is where the content of the section would go. Angular is an essential skill for modern web development.</p>
+                <h4>What I Need to Learn</h4>
+                <ul>
+                    <li>JavaScript</li>
+                    <li><a href="http://JavaScript.com">Java</a></li>
+                </ul>
+
+                <h3>Tables of Learning Progress</h3>
+                <table>
+                    <caption><h2>Learning Progress</h2></caption>
+                    <thead>
+                        <tr>
+                            <th>Num 1</th>
+                            <th>Num 2</th>
+                            <th>Num 3</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>This is the first</td>
+                            <td>This is the second</td>
+                            <td>This is the third</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <section>
+                    <p>This is the main content of the section, <i>this</i> is where I write all my thoughts and content on Angular.</p>
+                </section>
+            </article>
+        </section>
+
+        <button type="submit">Do the Thing!</button>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Frederik Rex. All rights reserved.</p>
+    </footer>
 </body>
 </html>
-
-<style>
-    .main {
-        background-color: be;
-    }
-
-</style>

@@ -1,10 +1,21 @@
-styles.css
 /* Reset default styles */
 * {
-    margin: 0;
-    padding: 0;
+    
     box-sizing: border-box;
-    font-family: 'Inter', sans-serif;
+    font-family: "Red Hat Display", sans-serif;
+}
+
+@font-face {
+    font-family: "Red Hat Display";
+    src: url(fonts/proportional/web/RedHatDisplayVF.woff2);
+}
+
+.body {
+    
+    font-family: "Red Hat Display", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
 }
 
 /* Container */
@@ -32,55 +43,40 @@ styles.css
     color: #333;
 }
 
-.project-info, .measurement-details {
+
+
+/* Hero Section */
+.hero {
     display: flex;
-    flex-wrap: wrap;
-    gap: 15px;
+    flex-flow: row;
+    font-size: 50px;
 }
 
-.project-item, .measurement-item {
-    font-size: 14px;
-    color: #555;
+.images {
     display: flex;
-    gap: 5px;
-    align-items: center;
+    flex-flow: wrap;
 }
 
-.project-item.multi-report {
-    font-weight: 600;
+@media (max-width: 800px) {
+    .hero {
+        flex-direction: column;
+    }
 }
 
-.date-range {
+/* Flex Container */
+.flex-container {
     display: flex;
-    gap: 20px;
+    justify-content: flex-start;
 }
 
-.label {
-    font-weight: 500;
-    color: #333;
+
+.main {
+    padding: 20px;
 }
 
-.value {
-    font-weight: 400;
-    color: #666;
-}
-
-/* Measurement */
-.measurement {
-    border-top: 1px solid #ddd;
-    padding-top: 20px;
-}
-
-.measurement h2 {
-    font-size: 18px;
-    font-weight: 600;
-    color: #333;
-    margin-bottom: 10px;
-}
-
-.content {
-    font-size: 14px;
-    color: #444;
-    line-height: 1.6;
-    font-weight: 600;
+.red-hat-text-bolded {
+    font-family: "Red Hat Text", serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
 }
